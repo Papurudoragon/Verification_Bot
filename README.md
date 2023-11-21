@@ -7,3 +7,8 @@ To Do:
 
 Add a captcha/challenge to verify a user.
 Add additional options for verification
+
+
+---------------------------------------------------------
+
+# I am too lazy to finish this bot, feel free to use the skeleton
