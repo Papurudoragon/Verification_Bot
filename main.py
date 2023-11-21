@@ -6,7 +6,7 @@ my_secret = os.environ['token']
 # client = discord.Client(intents=discord.Intents.all())
 client = commands.Bot(command_prefix='/', help_command=None, intents=discord.Intents.all())
 conversation_id = None
-channel = client.get_channel(1109910235436556419)
+channel = client.get_channel(<channel ID>)
 
 # Set up Discord command to trigger the function, get response from api, and send the response
 @client.event
