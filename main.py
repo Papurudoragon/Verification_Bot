@@ -8,7 +8,7 @@ client = commands.Bot(command_prefix='/', help_command=None, intents=discord.Int
 conversation_id = None
 channel = client.get_channel(1109910235436556419)
 
-# Set up Discord command to trigger the function, get response from codex api, and send the response
+# Set up Discord command to trigger the function, get response from api, and send the response
 @client.event
 async def on_ready():
   print(f'Logged in as {client.user}')
